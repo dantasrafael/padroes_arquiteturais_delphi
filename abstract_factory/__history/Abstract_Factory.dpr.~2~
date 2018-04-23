@@ -1,0 +1,26 @@
+program Abstract_Factory;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uCelularBasico in 'uCelularBasico.pas',
+  uCelularSmartphone in 'uCelularSmartphone.pas',
+  uFabricaCelular in 'uFabricaCelular.pas',
+  uFabricaLG in 'uFabricaLG.pas',
+  uFabricaSamsung in 'uFabricaSamsung.pas',
+  uLgDM110 in 'uLgDM110.pas',
+  uLgG4 in 'uLgG4.pas',
+  uSamsungE1270 in 'uSamsungE1270.pas',
+  uSamsungGalaxy in 'uSamsungGalaxy.pas';
+
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

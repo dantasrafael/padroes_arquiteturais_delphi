@@ -22,17 +22,7 @@ var
   oCelularBasico: ICelularBasico;
 begin
   try
-    oFabricaDeCelular := TFabricaSamsung.Create;
-    oCelularSmartphone := oFabricaDeCelular.criarCelularSmartphone;
-    oCelularBasico := oFabricaDeCelular.criarCelularBasico;
-    Writeln(oCelularSmartphone.getDadosSmartphone);
-    Writeln(oCelularBasico.getDadosCelularBasico);
-
-    oFabricaDeCelular := TFabricaLG.Create;
-    oCelularSmartphone := oFabricaDeCelular.criarCelularSmartphone;
-    oCelularBasico := oFabricaDeCelular.criarCelularBasico;
-    Writeln(oCelularSmartphone.getDadosSmartphone);
-    Writeln(oCelularBasico.getDadosCelularBasico);
+    { TODO -oUser -cConsole Main : Insert code here }
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

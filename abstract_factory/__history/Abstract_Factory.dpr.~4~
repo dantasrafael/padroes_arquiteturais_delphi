@@ -28,11 +28,15 @@ begin
     Writeln(oCelularSmartphone.getDadosSmartphone);
     Writeln(oCelularBasico.getDadosCelularBasico);
 
-    oFabricaDeCelular := TFabricaLG.Create;
-    oCelularSmartphone := oFabricaDeCelular.criarCelularSmartphone;
-    oCelularBasico := oFabricaDeCelular.criarCelularBasico;
-    Writeln(oCelularSmartphone.getDadosSmartphone);
-    Writeln(oCelularBasico.getDadosCelularBasico);
+  sResultado := sResultado + #13#10 + #13#10;
+
+  oFabricaDeCelular := TFabricaLG.Create;
+  oCelularSmartphone := oFabricaDeCelular.criarCelularSmartphone;
+  oCelularBasico := oFabricaDeCelular.criarCelularBasico;
+  sResultado := sResultado + oCelularSmartphone.getDadosSmartphone +
+    #13#10 + oCelularBasico.getDadosCelularBasico;
+
+  Showmessage(sResultado);
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

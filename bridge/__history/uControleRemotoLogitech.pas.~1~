@@ -1,0 +1,31 @@
+unit uControleRemotoLogitech;
+
+interface
+
+uses
+  uControleRemotoAbstrato;
+
+type
+  TControleRemotoLogitech = class(TControleRemotoAbstrato)
+  private
+    { Private declarations }
+  public
+    constructor Create(poTv: TTelevisaoAbstrata);
+    procedure selecionarCanal(pnCanal: Integer);
+  end;
+
+implementation
+
+{ TControleRemotoLogitech }
+
+constructor TControleRemotoLogitech.Create(poTv: TTelevisaoAbstrata);
+begin
+  inherited Create(poTv);
+end;
+
+procedure TControleRemotoLogitech.selecionarCanal(pnCanal: Integer);
+begin
+  configurarCanal(pnCanal);
+end;
+
+end.

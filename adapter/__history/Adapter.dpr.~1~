@@ -1,4 +1,4 @@
-program Abstract_Factory;
+program Adapter;
 
 {$APPTYPE CONSOLE}
 

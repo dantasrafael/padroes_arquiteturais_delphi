@@ -31,8 +31,8 @@ begin
     oFabricaDeCelular := TFabricaLG.Create;
     oCelularSmartphone := oFabricaDeCelular.criarCelularSmartphone;
     oCelularBasico := oFabricaDeCelular.criarCelularBasico;
-    Writeln(oCelularSmartphone.getDadosSmartphone);
-    Writeln(oCelularBasico.getDadosCelularBasico);
+    sResultado := sResultado + oCelularSmartphone.getDadosSmartphone +
+      #13#10 + oCelularBasico.getDadosCelularBasico;
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions/>
-  <Default.Personality>
-    <Projects ActiveProject="D:\Padroes_Arquiteturais_Delphi\abstract_factory\Abstract_Factory.dproj"/>
-  </Default.Personality>
+	<Transactions/>
+	<Default.Personality>
+		<Projects ActiveProject="D:\Padroes_Arquiteturais_Delphi\bridge\Bridge.dproj"/>
+	</Default.Personality>
 </BorlandProject>
