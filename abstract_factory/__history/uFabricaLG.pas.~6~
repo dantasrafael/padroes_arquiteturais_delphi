@@ -1,0 +1,31 @@
+unit uFabricaLG;
+
+interface
+
+uses
+  uFabricaCelular;
+
+type
+  TFabricaLG = class(TInterfacedObject, IFabricaCelular)
+  private
+    { Private declarations }
+  public
+    function criarCelularBasico: ICelularBasico;
+    function criarCelularSmartphone: ICelularSmartphone;
+  end;
+
+implementation
+
+{ TFabricaLG }
+
+function TFabricaLG.criarCelularBasico: ICelularBasico;
+begin
+
+end;
+
+function TFabricaLG.criarCelularSmartphone: ICelularSmartphone;
+begin
+
+end;
+
+end.

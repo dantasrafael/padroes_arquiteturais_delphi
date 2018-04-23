@@ -1,0 +1,14 @@
+unit iCelularSmartPhone;
+
+interface
+
+type
+  ICelularBasico = interface
+
+    function getDadosSmartphone: string;
+
+  end;
+
+implementation
+
+end.

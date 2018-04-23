@@ -1,0 +1,18 @@
+unit iCelularBasico;
+
+interface
+
+type
+  ICelularBasico = interface
+    procedure ExecutarRelatorio(posajLotacao: TsajLotacao; pbSalvarTermo: Boolean);
+
+    function getfmpDadosTermoDistribuicao: TfmpDadosTermoDistribuicao;
+    procedure setfmpDadosTermoDistribuicao(Value: TfmpDadosTermoDistribuicao);
+
+    property fmpDadosTermoDistribuicao: TfmpDadosTermoDistribuicao
+      read getfmpDadosTermoDistribuicao write setfmpDadosTermoDistribuicao;
+  end;
+
+implementation
+
+end.

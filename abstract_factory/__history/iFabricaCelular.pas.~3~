@@ -1,0 +1,14 @@
+unit iFabricaCelular;
+
+interface
+
+type
+  IFabricaCelular = interface
+
+    function getDadosCelularBasico(): string;
+
+  end;
+
+implementation
+
+end.

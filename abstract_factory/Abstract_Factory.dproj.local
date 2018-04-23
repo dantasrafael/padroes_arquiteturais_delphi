@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:35:18.488,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:37:36.815,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uPrincipal.dfm=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/04/23 08:37:36.815,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uPrincipal.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:38:00.915,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:39:22.625,D:\Padroes_Arquiteturais_Delphi\abstract_factory\iCelularBasico.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:47:47.710,D:\Padroes_Arquiteturais_Delphi\abstract_factory\iCelularSmartPhone.pas=D:\Padroes_Arquiteturais_Delphi\abstract_factory\iCelularBasico.pas</Transaction>
+    <Transaction>2018/04/23 08:48:12.884,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\iCelularBasico.pas</Transaction>
+    <Transaction>2018/04/23 08:48:58.344,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 08:49:18.917,D:\Padroes_Arquiteturais_Delphi\abstract_factory\iFabricaCelular.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:05:46.544,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularBasico.pas</Transaction>
+    <Transaction>2018/04/23 09:05:46.576,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularSmartphone.pas</Transaction>
+    <Transaction>2018/04/23 09:05:47.144,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaCelular.pas</Transaction>
+    <Transaction>2018/04/23 09:07:33.700,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:07:45.740,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaLG.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:13:38.870,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:14:28.543,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgG4.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:20:01.804,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:20:11.436,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgDM110.pas=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:27:20.412,D:\Padroes_Arquiteturais_Delphi\abstract_factory\Abstract_Factory.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/23 09:29:48.920,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:30:02.361,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungGalaxy.pas=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:31:47.422,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:31:57.546,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungE1270.pas=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:33:01.333,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+    <Transaction>2018/04/23 09:33:09.256,D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaSamsung.pas=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

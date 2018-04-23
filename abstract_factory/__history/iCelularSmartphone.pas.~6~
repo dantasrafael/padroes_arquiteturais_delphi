@@ -1,0 +1,12 @@
+unit iCelularSmartphone;
+
+interface
+
+type
+  ICelularSmartphone = interface
+    function getDadosSmartphone(): string;
+  end;
+
+implementation
+
+end.

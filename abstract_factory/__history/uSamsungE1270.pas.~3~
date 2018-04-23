@@ -1,0 +1,20 @@
+unit uSamsungE1270;
+
+interface
+
+uses
+  uCelularBasico;
+
+type
+  TSamsungE1270 = class(TInterfacedObject, ICelularBasico)
+  private
+    modelo: string;
+    fabricante: string;
+  public
+    constructor Create;
+    function getDadosCelularBasico: string;
+  end;
+
+implementation
+
+end.

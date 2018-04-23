@@ -1,0 +1,16 @@
+unit iFabricaCelular;
+
+uses
+  iCelularBasico;
+
+interface
+
+type
+  IFabricaCelular = interface
+    procedure criarCelularBasico(): ICelularBasico;
+    procedure criarCelularSmartphone(): ICelularSmartphone;
+  end;
+
+implementation
+
+end.

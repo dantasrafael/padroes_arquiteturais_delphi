@@ -1,0 +1,14 @@
+unit iCelularBasico;
+
+interface
+
+type
+  ICelularBasico = interface
+
+    function getDadosCelularBasico: string;
+
+  end;
+
+implementation
+
+end.

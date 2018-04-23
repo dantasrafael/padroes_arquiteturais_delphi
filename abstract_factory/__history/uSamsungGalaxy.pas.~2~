@@ -1,0 +1,21 @@
+unit uSamsungGalaxy;
+
+interface
+
+uses
+  uCelularSmartphone;
+
+type
+  TSamsungGalaxy = class(TInterfacedObject, ICelularSmartphone)
+  private
+    modelo: string;
+    fabricante: string;
+    conectividade: string;
+  public
+    constructor Create;
+    function getDadosSmartphone: string;
+  end;
+
+implementation
+
+end.
