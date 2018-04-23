@@ -1,0 +1,28 @@
+unit uLivro;
+
+interface
+
+type
+  TLivro = class
+  private
+    introducao: string;
+    indice: string;
+    prefacio: string;
+    capitulos: string;
+    glossario: string;
+  public
+    function getIntroducao: string;
+    procedure setIntroducao(psIntroducao: string);
+    function getIndice: string;
+    procedure setIndice(psIndice: string);
+    function getPrefacio: string;
+    procedure setPrefacio(psPrefacio: string);
+    function getIntroducao: string;
+    procedure setIntroducao(psIntroducao: string);
+    function getIntroducao: string;
+    procedure setIntroducao(psIntroducao: string);
+  end;
+
+implementation
+
+end.

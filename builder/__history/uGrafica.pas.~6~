@@ -1,0 +1,19 @@
+unit uGrafica;
+
+interface
+
+uses
+  uLivroBuilder, uLivro;
+
+type
+  TGrafica = class
+  private
+    livroBuilder: TLivroBuilder;
+  public
+    function getLivro: TLivro;
+    procedure setGlossario(psGlossario: string);
+  end;
+
+implementation
+
+end.

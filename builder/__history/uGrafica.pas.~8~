@@ -1,0 +1,37 @@
+unit uGrafica;
+
+interface
+
+uses
+  uLivroBuilder, uLivro;
+
+type
+  TGrafica = class
+  private
+    livroBuilder: TLivroBuilder;
+  public
+    constructor Create(poLivroBuilder: TLivroBuilder);
+    function getLivro: TLivro;
+    procedure gerarLivro;
+  end;
+
+implementation
+
+{ TGrafica }
+
+constructor TGrafica.Create(poLivroBuilder: TLivroBuilder);
+begin
+
+end;
+
+procedure TGrafica.gerarLivro;
+begin
+
+end;
+
+function TGrafica.getLivro: TLivro;
+begin
+
+end;
+
+end.

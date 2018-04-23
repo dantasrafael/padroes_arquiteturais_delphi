@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/04/23 13:59:02.923,D:\Padroes_Arquiteturais_Delphi\bridge\Bridge.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2018/04/23 14:03:35.353,=D:\Padroes_Arquiteturais_Delphi\bridge\uControleRemotoAbstrato.pas</Transaction>
-    <Transaction>2018/04/23 14:03:35.391,=D:\Padroes_Arquiteturais_Delphi\bridge\uControleRemotoLogitech.pas</Transaction>
-    <Transaction>2018/04/23 14:03:35.435,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoAbstrata.pas</Transaction>
-    <Transaction>2018/04/23 14:03:35.484,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoLCD.pas</Transaction>
-    <Transaction>2018/04/23 14:06:55.403,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoLED.pas</Transaction>
+    <Transaction>2018/04/23 13:59:02.000.923,C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Padroes_Arquiteturais_Delphi\bridge\Bridge.dproj</Transaction>
+    <Transaction>2018/04/23 14:03:35.000.353,=D:\Padroes_Arquiteturais_Delphi\bridge\uControleRemotoAbstrato.pas</Transaction>
+    <Transaction>2018/04/23 14:03:35.000.435,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoAbstrata.pas</Transaction>
+    <Transaction>2018/04/23 14:03:35.000.391,=D:\Padroes_Arquiteturais_Delphi\bridge\uControleRemotoLogitech.pas</Transaction>
+    <Transaction>2018/04/23 14:03:35.000.484,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoLCD.pas</Transaction>
+    <Transaction>2018/04/23 14:06:55.000.403,=D:\Padroes_Arquiteturais_Delphi\bridge\uTelevisaoLED.pas</Transaction>
   </Transactions>
 </BorlandProject>

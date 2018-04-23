@@ -1,0 +1,62 @@
+unit uLivroFiccaoBuilder;
+
+interface
+
+uses
+  System.SysUtils,, uLivroBuilder, uLivro;
+
+type
+  TLivroFiccaoBuilder = class(TLivroBuilder)
+  private
+    livro: TLivro;
+  public
+    constructor Create;
+    procedure buildIndice;
+    procedure buildPrefacio;
+    procedure buildIntroducao;
+    procedure buildCapitulos;
+    procedure buildGlossario;
+    function getLivro: TLivro;
+  end;
+
+implementation
+
+{ TLivroFiccaoBuilder }
+
+procedure TLivroFiccaoBuilder.buildCapitulos;
+begin
+  Writeln('Montando índice');
+  livro.setIndice('Índice livro ficção');
+end;
+
+procedure TLivroFiccaoBuilder.buildGlossario;
+begin
+
+end;
+
+procedure TLivroFiccaoBuilder.buildIndice;
+begin
+
+end;
+
+procedure TLivroFiccaoBuilder.buildIntroducao;
+begin
+
+end;
+
+procedure TLivroFiccaoBuilder.buildPrefacio;
+begin
+
+end;
+
+constructor TLivroFiccaoBuilder.Create;
+begin
+  livro := TLivro.Create;
+end;
+
+function TLivroFiccaoBuilder.getLivro: TLivro;
+begin
+
+end;
+
+end.

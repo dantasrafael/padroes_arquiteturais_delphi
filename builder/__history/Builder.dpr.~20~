@@ -1,0 +1,40 @@
+program Builder;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uLivroBuilder in 'uLivroBuilder.pas',
+  uLivro in 'uLivro.pas',
+  uGrafica in 'uGrafica.pas',
+  uLivroFiccaoBuilder in 'uLivroFiccaoBuilder.pas',
+  uLivroTecnicoBuilder in 'uLivroTecnicoBuilder.pas';
+
+var
+  livroTecnicoBuilder: ILivroBuilder;
+  livroTecnicoWriter: TGrafica;
+  livroTecnico: TLivro;
+  livroFiccaoBuilder: ILivroBuilder;
+  livroFiccaoWriter: TGrafica;
+begin
+  try
+		Writeln('Gerando Livro Técnico:');
+		livroTecnicoBuilder := TLivroTecnicoBuilder.Create;
+		livroTecnicoWriter := TGrafica.Create(livroTecnicoBuilder);
+		livroTecnicoWriter.gerarLivro();
+		livroTecnico := livroTecnicoWriter.getLivro();
+		Writeln('Livro Técnico gerado com sucesso.' + #13#10 + #13#10);
+
+		Writeln('Gerando Livro de Ficção:');
+		livroFiccaoBuilder := TLivroFiccaoBuilder.Create;
+		livroFiccaoWriter := TGrafica.Create(livroFiccaoBuilder);
+		livroFiccaoWriter.gerarLivro();
+		Livro livroFiccao := livroFiccaoWriter.getLivro();
+		System.out.println("Livro de Ficção gerado com sucesso.");
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

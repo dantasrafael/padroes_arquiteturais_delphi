@@ -1,0 +1,27 @@
+unit uGrafica;
+
+interface
+
+uses
+  uLivroBuilder;
+
+type
+  TGrafica = class
+  private
+    livroBuilder: TLivroBuilder;
+  public
+    function getIntroducao: string;
+    procedure setIntroducao(psIntroducao: string);
+    function getIndice: string;
+    procedure setIndice(psIndice: string);
+    function getPrefacio: string;
+    procedure setPrefacio(psPrefacio: string);
+    function getCapitulos: string;
+    procedure setCapitulos(psCapitulos: string);
+    function getGlossario: string;
+    procedure setGlossario(psGlossario: string);
+  end;
+
+implementation
+
+end.

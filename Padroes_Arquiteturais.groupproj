@@ -12,6 +12,9 @@
         <Projects Include="bridge\Bridge.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="builder\Builder.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -47,14 +50,23 @@
     <Target Name="Bridge:Make">
         <MSBuild Projects="bridge\Bridge.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Builder">
+        <MSBuild Projects="builder\Builder.dproj"/>
+    </Target>
+    <Target Name="Builder:Clean">
+        <MSBuild Projects="builder\Builder.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Builder:Make">
+        <MSBuild Projects="builder\Builder.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Abstract_Factory;Adapter;Bridge"/>
+        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean"/>
+        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make"/>
+        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

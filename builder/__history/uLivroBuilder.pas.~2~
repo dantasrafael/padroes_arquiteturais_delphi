@@ -1,0 +1,12 @@
+unit uLivroBuilder;
+
+interface
+
+type
+  ILivroBuilder = interface
+    function getDadosCelularBasico: string;
+  end;
+
+implementation
+
+end.

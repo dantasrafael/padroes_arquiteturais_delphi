@@ -1,0 +1,66 @@
+unit uLivroTecnicoBuilder;
+
+interface
+
+uses
+  System.SysUtils, uLivroBuilder, uLivro;
+
+type
+  TLivroTecnicoBuilder = class(TLivroBuilder)
+  private
+    livro: TLivro;
+  public
+    constructor Create;
+    procedure buildIndice;
+    procedure buildPrefacio;
+    procedure buildIntroducao;
+    procedure buildCapitulos;
+    procedure buildGlossario;
+    function getLivro: TLivro;
+  end;
+
+implementation
+
+{ TLivroTecnicoBuilder }
+
+procedure TLivroTecnicoBuilder.buildCapitulos;
+begin
+  Writeln('Montando capítulos');
+  livro.setIndice('Capítulos livro técnico');
+end;
+
+procedure TLivroTecnicoBuilder.buildGlossario;
+begin
+  Writeln('Montando glossário');
+  livro.setIndice('Glossário livro técnico');
+end;
+
+procedure TLivroTecnicoBuilder.buildIndice;
+begin
+  Writeln('Montando índice');
+  livro.setIndice('Índice livro técnico');
+end;
+
+procedure TLivroTecnicoBuilder.buildIntroducao;
+begin
+  Writeln('Montando introdução');
+  livro.setIndice('Introdução livro técnico');
+end;
+
+procedure TLivroTecnicoBuilder.buildPrefacio;
+begin
+  Writeln('Montando prefácio');
+  livro.setIndice('Prefácio livro técnico');
+end;
+
+constructor TLivroTecnicoBuilder.Create;
+begin
+  livro := TLivro.Create;
+end;
+
+function TLivroTecnicoBuilder.getLivro: TLivro;
+begin
+  Result := livro;
+end;
+
+end.
