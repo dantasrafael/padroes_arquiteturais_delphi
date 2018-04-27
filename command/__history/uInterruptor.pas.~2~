@@ -1,0 +1,20 @@
+unit uInterruptor;
+
+interface
+
+uses
+  uComando;
+
+type
+  TInterruptor = class()
+  private
+    ligada: Boolean;
+  public
+    procedure ligar;
+    procedure desligar;
+    procedure exibirStatus;
+  end;
+
+implementation
+
+end.

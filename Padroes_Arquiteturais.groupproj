@@ -18,6 +18,12 @@
         <Projects Include="chain_of_responsability\Chain_of_Responsability.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="command\Command.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="composite\Composite.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -71,14 +77,32 @@
     <Target Name="Chain_of_Responsability:Make">
         <MSBuild Projects="chain_of_responsability\Chain_of_Responsability.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Command">
+        <MSBuild Projects="command\Command.dproj"/>
+    </Target>
+    <Target Name="Command:Clean">
+        <MSBuild Projects="command\Command.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Command:Make">
+        <MSBuild Projects="command\Command.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Composite">
+        <MSBuild Projects="composite\Composite.dproj"/>
+    </Target>
+    <Target Name="Composite:Clean">
+        <MSBuild Projects="composite\Composite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Composite:Make">
+        <MSBuild Projects="composite\Composite.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder;Chain_of_Responsability"/>
+        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder;Chain_of_Responsability;Command;Composite"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean;Chain_of_Responsability:Clean"/>
+        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean;Chain_of_Responsability:Clean;Command:Clean;Composite:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make;Chain_of_Responsability:Make"/>
+        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make;Chain_of_Responsability:Make;Command:Make;Composite:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

@@ -1,0 +1,41 @@
+unit uContainerComponente;
+
+interface
+
+uses
+  System.SysUtils,
+  uInterfaceComponente;
+
+type
+  TContainerComponente = class(TInterfacedObject, IInterfaceComponente)
+  private
+    listaComponentes: array of IInterfaceComponente;
+  public
+    procedure incluir(poComponent: IInterfaceComponente);
+    procedure remover(poComponent: IInterfaceComponente);
+    procedure exibir;
+  end;
+
+implementation
+
+{ TContainerComponente }
+
+procedure TContainerComponente.exibir;
+var
+  i: Integer;
+begin
+  for i := 0 to Length(listaComponentes) -1 do
+    listaComponentes[i].exibir;
+end;
+
+procedure TContainerComponente.incluir(poComponent: IInterfaceComponente);
+begin
+  listaComponentes.Add(poComponent);
+end;
+
+procedure TContainerComponente.remover(poComponent: IInterfaceComponente);
+begin
+  listaComponentes.Remover(poComponent);
+end;
+
+end.

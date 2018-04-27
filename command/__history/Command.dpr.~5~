@@ -1,0 +1,22 @@
+program Command;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uLampada in 'uLampada.pas',
+  uComando in 'uComando.pas',
+  uInterruptor in 'uInterruptor.pas',
+  uDesligarLampadaComando in 'uDesligarLampadaComando.pas',
+  uLigarLampadaComando in 'uLigarLampadaComando.pas';
+
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

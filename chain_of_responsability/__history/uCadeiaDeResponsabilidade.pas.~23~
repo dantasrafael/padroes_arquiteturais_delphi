@@ -27,7 +27,7 @@ begin
   if (pnPrioridade <= limite) then
     escrever(psMensagem);
 
-  if Assigned(proximo) then
+  if (proximo <> null) then
     proximo.setMensagem(psMensagem, pnPrioridade);
 end;
 

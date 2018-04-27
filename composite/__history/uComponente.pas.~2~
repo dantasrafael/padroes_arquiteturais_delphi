@@ -1,0 +1,19 @@
+unit uComponente;
+
+interface
+
+uses
+  uInterfaceComponente;
+
+type
+  TDesligarLampadaComando = class(TInterfacedObject, IComando)
+  private
+    lampada: TLampada;
+  public
+    constructor Create(poLampada: TLampada);
+    procedure executar;
+  end;
+
+implementation
+
+end.

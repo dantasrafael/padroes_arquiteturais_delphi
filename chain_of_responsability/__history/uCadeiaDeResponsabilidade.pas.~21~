@@ -5,7 +5,7 @@ interface
 const
   um = 1;
   dois = 2;
-  tres = 3;
+  tres 3;
 
 type
   TCadeiaDeResponsabilidade = class
@@ -27,7 +27,7 @@ begin
   if (pnPrioridade <= limite) then
     escrever(psMensagem);
 
-  if Assigned(proximo) then
+  if (proximo != null) then
     proximo.setMensagem(psMensagem, pnPrioridade);
 end;
 

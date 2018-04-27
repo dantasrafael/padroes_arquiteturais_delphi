@@ -1,0 +1,21 @@
+program Chain_of_Responsability;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uCadeiaDeResponsabilidade in 'uCadeiaDeResponsabilidade.pas',
+  uClasse1 in 'uClasse1.pas',
+  uClasse2 in 'uClasse2.pas',
+  uClasse3 in 'uClasse3.pas';
+
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

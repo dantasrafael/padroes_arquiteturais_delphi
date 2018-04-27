@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 14:49:01.204,D:\Padroes_Arquiteturais_Delphi\command\Command.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/27 15:05:58.028,=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:06:04.243,D:\Padroes_Arquiteturais_Delphi\command\uLampada.pas=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:09:13.501,=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:09:20.966,D:\Padroes_Arquiteturais_Delphi\command\uComando.pas=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:10:09.031,=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:10:15.455,D:\Padroes_Arquiteturais_Delphi\command\uInterruptor.pas=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:13:20.059,=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:13:30.795,D:\Padroes_Arquiteturais_Delphi\command\uDesligarLampadaComando.pas=D:\Padroes_Arquiteturais_Delphi\command\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:18:02.693,=D:\Padroes_Arquiteturais_Delphi\command\uLigarLampadaComando.pas</Transaction>
+  </Transactions>
+</BorlandProject>

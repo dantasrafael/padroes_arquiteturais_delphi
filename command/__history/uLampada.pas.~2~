@@ -1,0 +1,17 @@
+unit uLampada;
+
+interface
+
+type
+  TLampada = class
+  private
+    ligada: Boolean;
+  public
+    procedure ligar;
+    procedure desligar;
+    procedure exibirStatus;
+  end;
+
+implementation
+
+end.

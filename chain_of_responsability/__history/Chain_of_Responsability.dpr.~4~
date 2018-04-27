@@ -15,23 +15,18 @@ function criarCadeiaDeResponsabilidade: TCadeiaDeResponsabilidade;
 var
   cadeia1, cadeia2, cadeia3: TCadeiaDeResponsabilidade;
 begin
-  cadeia1 := TClasse1.Create(uCadeiaDeResponsabilidade.tres);
-  cadeia2 := TClasse2.Create(uCadeiaDeResponsabilidade.dois);
-  cadeia3 := TClasse3.Create(uCadeiaDeResponsabilidade.um);
+  cadeia1 := TClasse1.Create(TCadeiaDeResponsabilidade.tres);
+  cadeia2 := TClasse2.Create(TCadeiaDeResponsabilidade.dois);
+  cadeia3 := TClasse3.Create(TCadeiaDeResponsabilidade.um);
 
   cadeia1.setProxima(cadeia2);
   cadeia2.setProxima(cadeia3);
   result := cadeia1;
 end;
 
-var
-  cadeia: TCadeiaDeResponsabilidade;
 begin
   try
-    cadeia := criarCadeiaDeResponsabilidade;
-		cadeia.setMensagem('Nível 3', uCadeiaDeResponsabilidade.tres);
-		cadeia.setMensagem('Nível 2', uCadeiaDeResponsabilidade.dois);
-		cadeia.setMensagem('Nível 1', uCadeiaDeResponsabilidade.um);
+    { TODO -oUser -cConsole Main : Insert code here }
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);

@@ -1,0 +1,31 @@
+unit uComponente;
+
+interface
+
+uses
+  uInterfaceComponente;
+
+type
+  TComponente = class(TInterfacedObject, IInterfaceComponente)
+  private
+    nome: string;
+  public
+    constructor Create(psNome: string);
+    procedure exibir;
+  end;
+
+implementation
+
+{ TComponente }
+
+constructor TComponente.Create(psNome: string);
+begin
+
+end;
+
+procedure TComponente.exibir;
+begin
+
+end;
+
+end.

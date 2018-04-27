@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:22:59.461,D:\Padroes_Arquiteturais_Delphi\composite\Composite.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/27 15:26:37.771,=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:26:51.375,D:\Padroes_Arquiteturais_Delphi\composite\uInterfaceComponente.pas=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:27:36.337,=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:27:41.488,D:\Padroes_Arquiteturais_Delphi\composite\uComponente.pas=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:38:07.678,=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+    <Transaction>2018/04/27 15:38:17.013,D:\Padroes_Arquiteturais_Delphi\composite\uContainerComponente.pas=D:\Padroes_Arquiteturais_Delphi\composite\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

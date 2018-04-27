@@ -1,0 +1,28 @@
+program Composite;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  uInterfaceComponente in 'uInterfaceComponente.pas',
+  uComponente in 'uComponente.pas',
+  uContainerComponente in 'uContainerComponente.pas';
+
+var
+  componenteUnitario1: TComponente;
+  componenteUnitario2: TComponente;
+  componenteUnitario3: TComponente;
+  componenteUnitario4: TComponente;
+  componenteUnitario5: TComponente;
+  container1: TContainerComponente;
+  container2: TContainerComponente;
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.
