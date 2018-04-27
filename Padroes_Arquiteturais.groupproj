@@ -15,6 +15,9 @@
         <Projects Include="builder\Builder.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="chain_of_responsability\Chain_of_Responsability.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -59,14 +62,23 @@
     <Target Name="Builder:Make">
         <MSBuild Projects="builder\Builder.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Chain_of_Responsability">
+        <MSBuild Projects="chain_of_responsability\Chain_of_Responsability.dproj"/>
+    </Target>
+    <Target Name="Chain_of_Responsability:Clean">
+        <MSBuild Projects="chain_of_responsability\Chain_of_Responsability.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Chain_of_Responsability:Make">
+        <MSBuild Projects="chain_of_responsability\Chain_of_Responsability.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder"/>
+        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder;Chain_of_Responsability"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean"/>
+        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean;Chain_of_Responsability:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make"/>
+        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make;Chain_of_Responsability:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

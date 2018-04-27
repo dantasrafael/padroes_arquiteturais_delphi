@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/04/23 14:28:37.277,D:\Padroes_Arquiteturais_Delphi\adapter\Adapter.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2018/04/23 14:28:45.084,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraAdapter.pas</Transaction>
-    <Transaction>2018/04/23 14:28:45.147,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraMotorista_B.pas</Transaction>
-    <Transaction>2018/04/23 14:28:45.184,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraMotorista_D.pas</Transaction>
+    <Transaction>2018/04/23 14:28:37.000.277,C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Padroes_Arquiteturais_Delphi\adapter\Adapter.dproj</Transaction>
+    <Transaction>2018/04/23 14:28:45.000.147,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraMotorista_B.pas</Transaction>
+    <Transaction>2018/04/23 14:28:45.000.184,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraMotorista_D.pas</Transaction>
+    <Transaction>2018/04/23 14:28:45.000.084,=D:\Padroes_Arquiteturais_Delphi\adapter\uCarteiraAdapter.pas</Transaction>
   </Transactions>
 </BorlandProject>

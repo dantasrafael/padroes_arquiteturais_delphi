@@ -2,15 +2,15 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2018/03/08 10:02:47.000.057,=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/04/23 14:26:10.198,D:\Padroes_Arquiteturais_Delphi\abstract_factory\Abstract_Factory.dproj=C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2018/04/23 14:26:25.893,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularBasico.pas</Transaction>
-    <Transaction>2018/04/23 14:26:25.940,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularSmartphone.pas</Transaction>
-    <Transaction>2018/04/23 14:26:25.977,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaCelular.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.025,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaLG.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.074,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaSamsung.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.109,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgDM110.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.140,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgG4.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.209,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungE1270.pas</Transaction>
-    <Transaction>2018/04/23 14:26:26.240,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungGalaxy.pas</Transaction>
+    <Transaction>2018/04/23 14:26:10.000.198,C:\Users\rafael.d\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Padroes_Arquiteturais_Delphi\abstract_factory\Abstract_Factory.dproj</Transaction>
+    <Transaction>2018/04/23 14:26:25.000.893,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularBasico.pas</Transaction>
+    <Transaction>2018/04/23 14:26:25.000.977,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaCelular.pas</Transaction>
+    <Transaction>2018/04/23 14:26:25.000.940,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uCelularSmartphone.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.140,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgG4.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.209,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungE1270.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.025,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaLG.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.240,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uSamsungGalaxy.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.074,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uFabricaSamsung.pas</Transaction>
+    <Transaction>2018/04/23 14:26:26.000.109,=D:\Padroes_Arquiteturais_Delphi\abstract_factory\uLgDM110.pas</Transaction>
   </Transactions>
 </BorlandProject>
