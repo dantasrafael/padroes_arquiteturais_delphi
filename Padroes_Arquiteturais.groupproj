@@ -24,6 +24,18 @@
         <Projects Include="composite\Composite.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="decorate\Decorate.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="facade\Facade.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="factory_method\Factory_Method.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="flyweight\Flyweight.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -95,14 +107,50 @@
     <Target Name="Composite:Make">
         <MSBuild Projects="composite\Composite.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Decorate">
+        <MSBuild Projects="decorate\Decorate.dproj"/>
+    </Target>
+    <Target Name="Decorate:Clean">
+        <MSBuild Projects="decorate\Decorate.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Decorate:Make">
+        <MSBuild Projects="decorate\Decorate.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Facade">
+        <MSBuild Projects="facade\Facade.dproj"/>
+    </Target>
+    <Target Name="Facade:Clean">
+        <MSBuild Projects="facade\Facade.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Facade:Make">
+        <MSBuild Projects="facade\Facade.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Factory_Method">
+        <MSBuild Projects="factory_method\Factory_Method.dproj"/>
+    </Target>
+    <Target Name="Factory_Method:Clean">
+        <MSBuild Projects="factory_method\Factory_Method.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Factory_Method:Make">
+        <MSBuild Projects="factory_method\Factory_Method.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Flyweight">
+        <MSBuild Projects="flyweight\Flyweight.dproj"/>
+    </Target>
+    <Target Name="Flyweight:Clean">
+        <MSBuild Projects="flyweight\Flyweight.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Flyweight:Make">
+        <MSBuild Projects="flyweight\Flyweight.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder;Chain_of_Responsability;Command;Composite"/>
+        <CallTarget Targets="Abstract_Factory;Adapter;Bridge;Builder;Chain_of_Responsability;Command;Composite;Decorate;Facade;Factory_Method;Flyweight"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean;Chain_of_Responsability:Clean;Command:Clean;Composite:Clean"/>
+        <CallTarget Targets="Abstract_Factory:Clean;Adapter:Clean;Bridge:Clean;Builder:Clean;Chain_of_Responsability:Clean;Command:Clean;Composite:Clean;Decorate:Clean;Facade:Clean;Factory_Method:Clean;Flyweight:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make;Chain_of_Responsability:Make;Command:Make;Composite:Make"/>
+        <CallTarget Targets="Abstract_Factory:Make;Adapter:Make;Bridge:Make;Builder:Make;Chain_of_Responsability:Make;Command:Make;Composite:Make;Decorate:Make;Facade:Make;Factory_Method:Make;Flyweight:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
